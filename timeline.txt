@@ -6,3 +6,7 @@
 38.46
 
 ->Schema Design Completed
+
+1.27.28 
+
+->Zod validation completed
