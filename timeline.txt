@@ -14,3 +14,7 @@
 2.25.17
 
 ->Signin And Signup Components Done
+
+2.39.35
+
+->clerk middleware intro Done
