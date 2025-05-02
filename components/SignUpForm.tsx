@@ -141,7 +141,7 @@ export default function SignUpForm() {
                 type="text"
                 placeholder="Enter the 6-digit code"
                 value={verificationCode}
-                onChange={(e:any) => setVerificationCode(e.target.value)}
+                onChange={(e) => setVerificationCode(e.target.value)}
                 className="w-full"
                 autoFocus
               />

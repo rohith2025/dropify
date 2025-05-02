@@ -1,10 +1,10 @@
-CREATE TABLE "files" (
+CREATE TABLE IF NOT EXISTS "files" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
 	"name" text NOT NULL,
 	"path" text NOT NULL,
 	"size" integer NOT NULL,
-	"text" text NOT NULL,
-	"file_url" text,
+	"type" text NOT NULL,
+	"file_url" text NOT NULL,
 	"thumbnail_url" text,
 	"user_id" text NOT NULL,
 	"parent_id" uuid,
