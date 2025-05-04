@@ -45,39 +45,10 @@ A simple file storage application built with Next.js, Clerk, Neon, Drizzle, and 
    pnpm install
    ```
 
-3. Create a `.env.local` file in the root directory with the following environment variables:
+3. Create a `.env.local` file in the root directory and add all the content same as .env.example
 
-   ```
-   # Clerk Authentication
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-   CLERK_SECRET_KEY=your_clerk_secret_key
 
-   # ImageKit
-   NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
-   IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
-   NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
 
-   # Clerk URLs
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-
-   # Fallback URLs
-   NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
-   NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
-
-   # App URLs
-   NEXT_PUBLIC_APP_URL=http://localhost:3000
-
-   # Database - Neon PostgreSQL
-   DATABASE_URL=your_neon_database_url
-   ```
-
-4. Set up your accounts and get the required API keys:
-   - Create a [Clerk](https://clerk.dev/) account and get your API keys
-   - Create a [Neon](https://neon.tech/) PostgreSQL database and get your connection string
-   - Create an [ImageKit](https://imagekit.io/) account and get your API keys
 
 ### Running the Application
 
